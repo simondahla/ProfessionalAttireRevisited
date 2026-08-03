@@ -6,7 +6,7 @@
     <AssemblyName>ProfessionalAttireRevisited</AssemblyName>
     <Nullable>disable</Nullable>
     <DefaultItemExcludes>$(DefaultItemExcludes);tools/**</DefaultItemExcludes>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
