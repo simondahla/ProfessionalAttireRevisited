@@ -1,4 +1,17 @@
 # Changelog
+## [0.4.0] - 2026-08-03
+
+### Docs
+
+- Write the real Workshop store page description
+
+
+### Features
+
+- Emit version.info for Mod Manager compatibility
+
+- Add mod.info for Mod Manager GitHub link, polish issue template and description
+
 ## [0.3.0] - 2026-08-03
 
 ### Features
