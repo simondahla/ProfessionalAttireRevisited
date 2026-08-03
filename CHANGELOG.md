@@ -1,4 +1,15 @@
 # Changelog
+## [0.1.4] - 2026-08-03
+
+### Docs
+
+- Fixed typo
+
+
+### Fixes
+
+- Trigger first CI-driven Steam publish
+
 ## [0.1.3] - 2026-08-03
 
 ### Fixes
