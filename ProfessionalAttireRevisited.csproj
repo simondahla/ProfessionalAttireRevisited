@@ -6,6 +6,7 @@
     <AssemblyName>ProfessionalAttireRevisited</AssemblyName>
     <Nullable>disable</Nullable>
     <DefaultItemExcludes>$(DefaultItemExcludes);tools/**</DefaultItemExcludes>
+    <Version>0.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,15 +17,15 @@
 
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
-      <HintPath>$(HOME)/Library/Application Support/Steam/steamapps/common/OxygenNotIncluded/OxygenNotIncluded.app/Contents/Resources/Data/Managed/Assembly-CSharp.dll</HintPath>
+      <HintPath>lib/Assembly-CSharp_public.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>$(HOME)/Library/Application Support/Steam/steamapps/common/OxygenNotIncluded/OxygenNotIncluded.app/Contents/Resources/Data/Managed/Assembly-CSharp-firstpass.dll</HintPath>
+      <HintPath>lib/Assembly-CSharp-firstpass_public.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>$(HOME)/Library/Application Support/Steam/steamapps/common/OxygenNotIncluded/OxygenNotIncluded.app/Contents/Resources/Data/Managed/UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>lib/UnityEngine.CoreModule.dll</HintPath>
       <Private>false</Private>
     </Reference>
   </ItemGroup>
