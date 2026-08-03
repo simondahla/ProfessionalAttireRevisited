@@ -1,4 +1,10 @@
 # Changelog
+## [0.1.6] - 2026-08-03
+
+### Fixes
+
+- Correct steamcmd path handling and clean up changenote
+
 ## [0.1.5] - 2026-08-03
 
 ### Fixes
