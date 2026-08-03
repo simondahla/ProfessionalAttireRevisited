@@ -40,10 +40,45 @@ jobs:
           name: workshop-package
 
       - name: Extract this version's changelog section
+        env:
+          VERSION: ${{ github.ref_name }}
         run: |
           awk '/^## /{if (found) exit; found=1} found' CHANGELOG.md > /tmp/notes.md
-          NOTES=$(sed 's/"/\\"/g' /tmp/notes.md | tr '\n' ' ')
-          sed -i "s#\"changenote\".*#\"changenote\" \"$NOTES\"#" build.vdf
+          python3 - <<'PYEOF'
+          import os
+          import re
+
+          with open("/tmp/notes.md") as f:
+              lines = f.read().splitlines()
+
+          sections = []
+          group, items = None, []
+          for line in lines:
+              line = line.strip()
+              if not line or line.startswith("## "):
+                  continue
+              if line.startswith("### "):
+                  if group and items:
+                      sections.append((group, items))
+                  group, items = line[4:].strip(), []
+              elif line.startswith("- "):
+                  items.append(line[2:].strip())
+          if group and items:
+              sections.append((group, items))
+
+          body = " ".join(f"{g}: {', '.join(i)}." for g, i in sections)
+          if not body:
+              body = "See CHANGELOG.md for details."
+          version = os.environ["VERSION"]
+          notes = f"{version}: {body}" if version else body
+          notes = notes.replace("\\", "\\\\").replace('"', '\\"')
+
+          with open("build.vdf") as f:
+              content = f.read()
+          content = re.sub(r'"changenote"\s*".*"', f'"changenote" "{notes}"', content)
+          with open("build.vdf", "w") as f:
+              f.write(content)
+          PYEOF
 
       - name: Install steamcmd
         run: |
