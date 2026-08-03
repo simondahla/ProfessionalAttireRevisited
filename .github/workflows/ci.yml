@@ -1,0 +1,13 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: No build configured yet
+        run: echo 'Placeholder check. Replace with dotnet/msbuild build once the .csproj and Klei reference DLLs are added.'
