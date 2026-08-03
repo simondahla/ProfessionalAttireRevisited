@@ -1,4 +1,15 @@
 # Changelog
+## [0.2.0] - 2026-08-03
+
+### Features
+
+- Copy CHANGELOG.md and generate RELEASE_NOTES.md into the local deploy folder
+
+
+### Fixes
+
+- Replace steamcmd Workshop upload with local prep for the Steam Mod Uploader
+
 ## [0.1.6] - 2026-08-03
 
 ### Fixes
