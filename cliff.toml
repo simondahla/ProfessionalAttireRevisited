@@ -29,4 +29,5 @@ commit_parsers = [
   { message = "^chore\\(release\\)", skip = true },
   { message = "^chore", group = "Chores" },
   { message = "^docs", group = "Docs" },
+  { message = "^ci", group = "CI" },
 ]
