@@ -1,0 +1,8 @@
+bin/
+obj/
+.DS_Store
+lib/*.dll
+.claude/
+CLAUDE.md
+AGENTS.md
+GEMINI.md
