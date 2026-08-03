@@ -1,4 +1,10 @@
 # Changelog
+## [0.3.0] - 2026-08-03
+
+### Features
+
+- Add GitHub issue template for bug reports
+
 ## [0.2.0] - 2026-08-03
 
 ### Features
