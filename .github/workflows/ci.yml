@@ -3,11 +3,18 @@ name: CI
 on:
   pull_request:
     branches: [main]
+  push:
+    branches: [main]
 
 jobs:
-  placeholder:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: No build configured yet
-        run: echo 'Placeholder check. Replace with dotnet/msbuild build once the .csproj and Klei reference DLLs are added.'
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "8.0.x"
+      - name: Fetch reference DLLs
+        run: ./scripts/fetch-reference-dlls.sh
+      - name: Build
+        run: dotnet build -c Release
