@@ -43,4 +43,8 @@ Temporary Items
 # iCloud generated files
 *.icloud
 
+### Random
+lib/*.dll
+preview.png
+
 # End of https://www.toptal.com/developers/gitignore/api/macos,dotnetcore
