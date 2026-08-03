@@ -1,0 +1,63 @@
+name: Release
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.RELEASE_PAT }}
+
+      - name: Install git-cliff
+        uses: taiki-e/install-action@git-cliff
+
+      - name: Check for releasable commits
+        id: check
+        run: |
+          LAST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
+          RANGE=""
+          if [ -n "$LAST_TAG" ]; then RANGE="$LAST_TAG..HEAD"; fi
+          COUNT=$(git log $RANGE --oneline -E --grep='^feat' --grep='^fix' --grep='BREAKING CHANGE' | wc -l)
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+
+      - name: Bump version and changelog
+        if: steps.check.outputs.count != '0'
+        id: bump
+        run: |
+          NEW_VERSION=$(git-cliff --config cliff.toml --bump --bumped-version)
+          echo "version=$NEW_VERSION" >> "$GITHUB_OUTPUT"
+          git-cliff --config cliff.toml --bump -o CHANGELOG.md
+          sed -i "s/^version:.*/version: ${NEW_VERSION#v}/" mod_info.yaml
+          sed -i "s#<Version>.*</Version>#<Version>${NEW_VERSION#v}</Version>#" ProfessionalAttireRevisited.csproj
+
+      - name: Extract this release's changelog section
+        if: steps.check.outputs.count != '0'
+        run: |
+          awk '/^## /{if (found) exit; found=1} found' CHANGELOG.md > /tmp/release-notes.md
+
+      - name: Commit and tag
+        if: steps.check.outputs.count != '0'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add CHANGELOG.md mod_info.yaml ProfessionalAttireRevisited.csproj
+          git commit -m "chore(release): ${{ steps.bump.outputs.version }}"
+          git tag "${{ steps.bump.outputs.version }}"
+          git push --atomic origin main "${{ steps.bump.outputs.version }}"
+
+      - name: Create GitHub release
+        if: steps.check.outputs.count != '0'
+        uses: softprops/action-gh-release@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ steps.bump.outputs.version }}
+          body_path: /tmp/release-notes.md
