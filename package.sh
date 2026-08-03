@@ -20,18 +20,24 @@ cp "$BUILD_OUT/PLib.dll" "$DEPLOY_DIR/"
 cp "$SCRIPT_DIR/mod_info.yaml" "$SCRIPT_DIR/mod.yaml" "$SCRIPT_DIR/preview.png" "$DEPLOY_DIR/"
 cp "$SCRIPT_DIR/CHANGELOG.md" "$DEPLOY_DIR/"
 
-echo "==> Writing RELEASE_NOTES.md"
 VERSION="$(grep '^version:' "$SCRIPT_DIR/mod_info.yaml" | awk '{print $2}')"
 LATEST_SECTION="$(awk '/^## /{if (found) exit; found=1} found' "$SCRIPT_DIR/CHANGELOG.md")"
 
-echo "==> Writing version.info (for Mod Manager, https://steamcommunity.com/sharedfiles/filedetails/?id=1843965353)"
+echo "==> Writing version.info and mod.info (for Mod Manager, https://steamcommunity.com/sharedfiles/filedetails/?id=1843965353)"
 cat > "$DEPLOY_DIR/version.info" <<EOF
 <?xml version="1.0" encoding="utf-8"?>
 <VersionInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Version>$VERSION.0</Version>
 </VersionInfo>
 EOF
+cat > "$DEPLOY_DIR/mod.info" <<EOF
+<?xml version="1.0" encoding="utf-8"?>
+<ModInfoData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Github>https://github.com/simondahla/ProfessionalAttireRevisited</Github>
+</ModInfoData>
+EOF
 
+echo "==> Writing RELEASE_NOTES.md"
 cat > "$DEPLOY_DIR/RELEASE_NOTES.md" <<EOF
 # Professional Attire Revisited - v$VERSION
 
