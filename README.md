@@ -67,3 +67,4 @@ dotnet build
 ```
 <!-- CI/CD pipeline verified end-to-end -->
 <!-- verify compiled build attaches to release -->
+<!-- test -->
