@@ -26,3 +26,4 @@ dotnet build
 ./dev.sh
 ```
 <!-- CI/CD pipeline verified end-to-end -->
+<!-- verify compiled build attaches to release -->
