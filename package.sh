@@ -32,16 +32,14 @@ $LATEST_SECTION
 
 ## Found a bug?
 
-Please report it: https://github.com/simondahla/ProfessionalAttireRevisited/issues/new
+Steam users: try force-updating the mod with Mod Updater first -
+https://steamcommunity.com/sharedfiles/filedetails/?id=2018291283 or
+https://steamcommunity.com/sharedfiles/filedetails/?id=1843965353 - in case it's
+already fixed.
 
-When reporting, please include:
+Still broken? Report it here: https://github.com/simondahla/ProfessionalAttireRevisited/issues
 
-- **What happened:**
-- **What you expected to happen:**
-- **Steps to reproduce:**
-- **Other mods enabled:**
-- **Save file (if relevant):** attach or link
-- **Game version:**
+Please use our bug report template: https://github.com/simondahla/ProfessionalAttireRevisited/issues/new?template=issue.yml
 EOF
 
 echo "==> Done. Deployed files:"
