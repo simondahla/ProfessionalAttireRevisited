@@ -1,0 +1,80 @@
+name: "Bug/Crash Report"
+description: Create a report of a crash or bug in the mod
+title: "Issue: "
+body:
+  - type: checkboxes
+    id: triedupdate
+    attributes:
+      label: "Steam users: before reporting an issue, have you tried force-updating the mod with Mod Updater (https://steamcommunity.com/sharedfiles/filedetails/?id=2018291283 or https://steamcommunity.com/sharedfiles/filedetails/?id=1843965353)?"
+      options:
+        - label: Mod is up to date
+          required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Issue description
+      description: Tell us what should happen and what happens instead of the expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: reprosteps
+    attributes:
+      label: Steps To Reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: Please write the steps in a list form
+    validations:
+      required: true
+  - type: textarea
+    id: playerlog
+    attributes:
+      label: Player.log
+      description: |
+        Please attach the full output log to allow us to understand the
+        issue. This file is located at:
+
+
+        Windows: `%userprofile%\AppData\LocalLow\Klei\Oxygen Not Included\Player.log`
+
+        Mac: `~/Library/Logs/Unity/Player.log`
+
+        Linux: `~/.config/unity3d/Klei/Oxygen Not Included/Player.log`
+      placeholder: Click in here to enable drag and drop, or use the built in file selector by clicking the bottom bar to add your log.
+    validations:
+      required: true
+  - type: input
+    id: othermods
+    attributes:
+      label: Other mods enabled
+      description: List any other mods you have active, especially if this might be a compatibility issue
+  - type: checkboxes
+    id: dlcs
+    attributes:
+      label: Active DLCs
+      description: Which DLCs are active?
+      options:
+        - label: Spaced Out
+        - label: Frosty Planet Pack
+        - label: Bionic Booster Pack
+        - label: Prehistoric Planet Pack
+  - type: dropdown
+    id: store
+    attributes:
+      label: Game Platform
+      description: On which store was the game purchased?
+      options:
+        - Steam
+        - Epic
+        - WeGame
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: platforms
+    attributes:
+      label: On what operating systems/platforms does the problem occur?
+      multiple: true
+      options:
+        - Windows
+        - Mac
+        - Linux
+      default: 0
