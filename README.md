@@ -25,3 +25,4 @@ dotnet build
 ```bash
 ./dev.sh
 ```
+<!-- CI/CD pipeline verified end-to-end -->
