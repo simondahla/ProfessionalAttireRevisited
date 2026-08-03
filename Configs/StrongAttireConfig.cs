@@ -9,9 +9,9 @@ namespace ProfessionalAttireRevisited
     public class StrongAttireConfig : IEquipmentConfig
     {
         public const string Id = "StrongAttire";
-        public const string DisplayName = "Athletic Outfit";
+        public const string DisplayName = "Strongman's Outfit";
         public const string GenericName = "Clothing";
-        public static string RecipeDescription = $"Tyding becomes a lot easier in an {DisplayName}.";
+        public static string RecipeDescription = $"Tyding becomes a lot easier in a {DisplayName}.";
         public static string Description = "Improves the stength capabilities of one duplicant.";
 
         public static int DecorModifier = ClothingWearer.ClothingInfo.BASIC_CLOTHING.decorMod;
@@ -32,7 +32,7 @@ namespace ProfessionalAttireRevisited
             var settings = POptions.ReadSettings<ProfessionalAttireRevisitedSettings>() ?? new ProfessionalAttireRevisitedSettings();
             ComplexRecipe.RecipeElement[] ingredients = new ComplexRecipe.RecipeElement[]
             {
-                new ComplexRecipe.RecipeElement(GameTags.Fabrics, settings.AthleticFiberCost)
+                new ComplexRecipe.RecipeElement(GameTags.Fabrics, settings.StrongmanFiberCost)
             };
             new ComplexRecipe(ComplexRecipeManager.MakeRecipeID("ClothingFabricator",
                 ingredients, results), ingredients, results)

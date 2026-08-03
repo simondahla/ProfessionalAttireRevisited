@@ -61,9 +61,9 @@ namespace ProfessionalAttireRevisited
         [Limit(5, 50)]
         public int ResearcherDatabankCost { get; set; } = 20;
 
-        [Option("Fiber Cost", "How much fiber (Basic Fabric or Feather Fabric) is required.", "Athletic Outfit", Format = "F0")]
+        [Option("Fiber Cost", "How much fiber (Basic Fabric or Feather Fabric) is required.", "Strongman's Outfit", Format = "F0")]
         [Limit(1, 8)]
-        public int AthleticFiberCost { get; set; } = 6;
+        public int StrongmanFiberCost { get; set; } = 6;
 
         [Option("Fiber Cost", "How much fiber (Basic Fabric or Feather Fabric) is required.", "Engineer's Outfit", Format = "F0")]
         [Limit(1, 8)]
