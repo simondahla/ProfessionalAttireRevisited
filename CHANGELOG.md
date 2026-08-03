@@ -1,4 +1,10 @@
 # Changelog
+## [0.1.2] - 2026-08-03
+
+### Fixes
+
+- Renamed outfit and updated readme
+
 ## [0.1.1] - 2026-08-03
 
 ### Fixes
