@@ -43,6 +43,26 @@ jobs:
         run: |
           awk '/^## /{if (found) exit; found=1} found' CHANGELOG.md > /tmp/release-notes.md
 
+      - uses: actions/setup-dotnet@v4
+        if: steps.check.outputs.count != '0'
+        with:
+          dotnet-version: "8.0.x"
+
+      - name: Fetch reference DLLs
+        if: steps.check.outputs.count != '0'
+        run: ./scripts/fetch-reference-dlls.sh
+
+      - name: Build release package
+        if: steps.check.outputs.count != '0'
+        run: |
+          dotnet build -c Release
+          mkdir -p package
+          cp bin/Release/net48/ProfessionalAttireRevisited.dll package/
+          cp bin/Release/net48/ProfessionalAttireRevisited.pdb package/
+          cp bin/Release/net48/PLib.dll package/
+          cp mod_info.yaml mod.yaml package/
+          cd package && zip -r "../ProfessionalAttireRevisited-${{ steps.bump.outputs.version }}.zip" . && cd ..
+
       - name: Commit and tag
         if: steps.check.outputs.count != '0'
         run: |
@@ -61,3 +81,4 @@ jobs:
         with:
           tag_name: ${{ steps.bump.outputs.version }}
           body_path: /tmp/release-notes.md
+          files: ProfessionalAttireRevisited-${{ steps.bump.outputs.version }}.zip
