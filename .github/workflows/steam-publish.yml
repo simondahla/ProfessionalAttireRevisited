@@ -56,4 +56,4 @@ jobs:
           echo "${{ secrets.STEAM_CONFIG_VDF }}" | base64 -d > ~/Steam/config/config.vdf
 
       - name: Upload to Workshop
-        run: ~/steamcmd/steamcmd.sh +login "${{ secrets.STEAM_USERNAME }}" +workshop_build_item build.vdf +quit
+        run: ~/steamcmd/steamcmd.sh +login "${{ secrets.STEAM_USERNAME }}" +workshop_build_item "$GITHUB_WORKSPACE/build.vdf" +quit
