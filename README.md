@@ -47,7 +47,7 @@ below.
 
 Rough shape of what's next, no timeline attached:
 
--  [ ] Translation support
+- [ ] Translation support
 - [ ] Work out some logic to be able to disable mod without game crashing…
 - [ ] An "advanced" tier of outfits with stronger bonuses and pricier ingredients.
 - [ ] Real *kanim* art and animations for each outfit, replacing the Snazzy Suits placeholder.
