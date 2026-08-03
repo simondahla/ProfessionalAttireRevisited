@@ -37,25 +37,11 @@ cat > "$DEPLOY_DIR/mod.info" <<EOF
 </ModInfoData>
 EOF
 
-echo "==> Writing RELEASE_NOTES.md"
-cat > "$DEPLOY_DIR/RELEASE_NOTES.md" <<EOF
-# Professional Attire Revisited - v$VERSION
-
-## What's new
-
-$LATEST_SECTION
-
-## Found a bug?
-
-Steam users: try force-updating the mod with Mod Updater first -
-https://steamcommunity.com/sharedfiles/filedetails/?id=2018291283 or
-https://steamcommunity.com/sharedfiles/filedetails/?id=1843965353 - in case it's
-already fixed.
-
-Still broken? Report it here: https://github.com/simondahla/ProfessionalAttireRevisited/issues
-
-Please use our bug report template: https://github.com/simondahla/ProfessionalAttireRevisited/issues/new?template=issue.yml
-EOF
+echo "==> Writing RELEASE_NOTES.md from template"
+TEMPLATE="$(cat "$SCRIPT_DIR/workshop/RELEASE_NOTES.template.md")"
+TEMPLATE="${TEMPLATE//\{\{VERSION\}\}/$VERSION}"
+TEMPLATE="${TEMPLATE//\{\{LATEST_SECTION\}\}/$LATEST_SECTION}"
+printf '%s\n' "$TEMPLATE" > "$DEPLOY_DIR/RELEASE_NOTES.md"
 
 echo "==> Done. Deployed files:"
 ls -la "$DEPLOY_DIR"
