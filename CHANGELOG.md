@@ -1,4 +1,24 @@
 # Changelog
+## [0.6.1] - 2026-08-04
+
+### CI
+
+- Author release commits as me instead of github-actions[bot]
+
+- Build release package via package.sh
+
+
+### Docs
+
+- Added todo
+
+- Fixed typo
+
+
+### Fixes
+
+- Link outfit names to their database entries
+
 ## [0.6.0] - 2026-08-04
 
 ### Features

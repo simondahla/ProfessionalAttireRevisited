@@ -48,18 +48,12 @@ jobs:
         with:
           dotnet-version: "8.0.x"
 
-      - name: Fetch reference DLLs
-        if: steps.check.outputs.count != '0'
-        run: ./scripts/fetch-reference-dlls.sh
-
       - name: Build release package
         if: steps.check.outputs.count != '0'
+        env:
+          DEPLOY_DIR: ${{ github.workspace }}/package
         run: |
-          dotnet build -c Release
-          mkdir -p package
-          cp bin/Release/net48/ProfessionalAttireRevisited.dll package/
-          cp bin/Release/net48/ProfessionalAttireRevisited.pdb package/
-          cp mod_info.yaml mod.yaml package/
+          ./package.sh
           cd package && zip -r "../ProfessionalAttireRevisited-${{ steps.bump.outputs.version }}.zip" . && cd ..
 
       - name: Commit and tag
