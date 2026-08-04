@@ -48,7 +48,7 @@ below.
 Rough shape of what's next, no timeline attached:
 
 - [ ] Translation support
-- [ ] Work out some logic to be able to disable mod without game crashing…
+- [ ] Work out some logic to be able to disable mod without game crashing… look at save safe funnction by Aki? https://github.com/aki-art/ONI-Mods
 - [ ] An "advanced" tier of outfits with stronger bonuses and pricier ingredients.
 - [ ] Real *kanim* art and animations for each outfit, replacing the Snazzy Suits placeholder.
 - [ ] General visual polish on the clothing sprites once real art exists.
