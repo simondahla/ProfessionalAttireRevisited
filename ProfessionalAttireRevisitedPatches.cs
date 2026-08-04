@@ -107,6 +107,7 @@ namespace ProfessionalAttireRevisited
                 Tag pilotAttireTag = PilotAttireConfig.Id.ToTag();
                 foreach (Ref<KPrefabID> itemRef in stored.equippedItems)
                 {
+                    if (itemRef == null) continue;
                     KPrefabID prefabId = itemRef.Get();
                     UnityEngine.Debug.Log($"[ProfessionalAttireRevisited] Pilot has equipped: {(prefabId != null ? prefabId.PrefabTag.Name : "null")}");
                     if (prefabId != null && prefabId.PrefabTag == pilotAttireTag)
