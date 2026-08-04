@@ -3,7 +3,7 @@ set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 BUILD_OUT="$SCRIPT_DIR/bin/Release/net48"
-DEPLOY_DIR="$HOME/Library/Application Support/unity.Klei.Oxygen Not Included/mods/local/ProfessionalAttireRevisited"
+DEPLOY_DIR="${DEPLOY_DIR:-$HOME/Library/Application Support/unity.Klei.Oxygen Not Included/mods/local/ProfessionalAttireRevisited}"
 
 echo "==> Fetching reference DLLs"
 "$SCRIPT_DIR/scripts/fetch-reference-dlls.sh"
