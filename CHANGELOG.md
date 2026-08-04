@@ -1,4 +1,22 @@
 # Changelog
+## [0.5.0] - 2026-08-04
+
+### Docs
+
+- Fix typos in workshop description, add acknowledgments
+
+- Attribute PLib's MIT notice in bundled LICENSE
+
+
+### Features
+
+- Add Mod Manager info and BBCode Workshop release notes
+
+
+### Refactor
+
+- Extract RELEASE_NOTES.md into an editable template file
+
 ## [0.4.0] - 2026-08-03
 
 ### Docs
