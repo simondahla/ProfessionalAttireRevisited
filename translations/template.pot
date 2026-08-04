@@ -18,7 +18,7 @@ msgstr ""
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.ARTIST.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.ARTIST.NAME"
-msgid "Artist's Outfit"
+msgid "<link=\"ARTISTATTIRE\">Artist's Outfit</link>"
 msgstr ""
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.ARTIST.DESC
@@ -33,7 +33,7 @@ msgstr ""
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.BUILDING.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.BUILDING.NAME"
-msgid "Builder's Outfit"
+msgid "<link=\"BUILDINGATTIRE\">Builder's Outfit</link>"
 msgstr ""
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.BUILDING.DESC
@@ -48,7 +48,7 @@ msgstr ""
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.COOK.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.COOK.NAME"
-msgid "Cook's Outfit"
+msgid "<link=\"COOKATTIRE\">Cook's Outfit</link>"
 msgstr ""
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.COOK.DESC
@@ -63,7 +63,7 @@ msgstr ""
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.DIGGING.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.DIGGING.NAME"
-msgid "Digger's Outfit"
+msgid "<link=\"DIGGINGATTIRE\">Digger's Outfit</link>"
 msgstr ""
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.DIGGING.DESC
@@ -78,7 +78,7 @@ msgstr ""
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.DOCTOR.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.DOCTOR.NAME"
-msgid "Doctor's Outfit"
+msgid "<link=\"DOCTORATTIRE\">Doctor's Outfit</link>"
 msgstr ""
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.DOCTOR.DESC
@@ -93,7 +93,7 @@ msgstr ""
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.FARMING.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.FARMING.NAME"
-msgid "Farmer's Outfit"
+msgid "<link=\"FARMINGATTIRE\">Farmer's Outfit</link>"
 msgstr ""
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.FARMING.DESC
@@ -108,7 +108,7 @@ msgstr ""
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.HAULER.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.HAULER.NAME"
-msgid "Hauler's Outfit"
+msgid "<link=\"HAULERATTIRE\">Hauler's Outfit</link>"
 msgstr ""
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.HAULER.DESC
@@ -123,7 +123,7 @@ msgstr ""
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.PILOT.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.PILOT.NAME"
-msgid "Pilot's Outfit"
+msgid "<link=\"PILOTATTIRE\">Pilot's Outfit</link>"
 msgstr ""
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.PILOT.DESC
@@ -138,7 +138,7 @@ msgstr ""
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.RANCHING.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.RANCHING.NAME"
-msgid "Rancher's Outfit"
+msgid "<link=\"RACHINGATTIRE\">Rancher's Outfit</link>"
 msgstr ""
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.RANCHING.DESC
@@ -153,7 +153,7 @@ msgstr ""
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.SCIENTIST.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.SCIENTIST.NAME"
-msgid "Researcher's Outfit"
+msgid "<link=\"SCIENTISTATTIRE\">Researcher's Outfit</link>"
 msgstr ""
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.SCIENTIST.DESC
@@ -168,7 +168,7 @@ msgstr ""
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.STRONG.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.STRONG.NAME"
-msgid "Strongman's Outfit"
+msgid "<link=\"STRONGATTIRE\">Strongman's Outfit</link>"
 msgstr ""
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.STRONG.DESC
@@ -183,7 +183,7 @@ msgstr ""
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.TINKER.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.TINKER.NAME"
-msgid "Engineer's Outfit"
+msgid "<link=\"TINKERATTIRE\">Engineer's Outfit</link>"
 msgstr ""
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.TINKER.DESC

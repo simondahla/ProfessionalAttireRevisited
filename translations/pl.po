@@ -18,8 +18,8 @@ msgstr "Ubranie"
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.ARTIST.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.ARTIST.NAME"
-msgid "Artist's Outfit"
-msgstr "Strój artysty"
+msgid "<link=\"ARTISTATTIRE\">Artist's Outfit</link>"
+msgstr "<link=\"ARTISTATTIRE\">Strój artysty</link>"
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.ARTIST.DESC
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.ARTIST.DESC"
@@ -33,8 +33,8 @@ msgstr "Ten fartuch sprawia, że duplikanci nie muszą martwić się o rozlanie 
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.BUILDING.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.BUILDING.NAME"
-msgid "Builder's Outfit"
-msgstr "Strój budowniczego"
+msgid "<link=\"BUILDINGATTIRE\">Builder's Outfit</link>"
+msgstr "<link=\"BUILDINGATTIRE\">Strój budowniczego</link>"
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.BUILDING.DESC
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.BUILDING.DESC"
@@ -48,8 +48,8 @@ msgstr "Ta stylowa i wytrzymała kamizelka pomaga duplikantom pracować wydajnie
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.COOK.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.COOK.NAME"
-msgid "Cook's Outfit"
-msgstr "Strój kucharza"
+msgid "<link=\"COOKATTIRE\">Cook's Outfit</link>"
+msgstr "<link=\"COOKATTIRE\">Strój kucharza</link>"
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.COOK.DESC
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.COOK.DESC"
@@ -63,8 +63,8 @@ msgstr "Noszenie stroju {0} sprawia, że gotowanie staje się dziecinnie proste.
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.DIGGING.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.DIGGING.NAME"
-msgid "Digger's Outfit"
-msgstr "Strój górnika"
+msgid "<link=\"DIGGINGATTIRE\">Digger's Outfit</link>"
+msgstr "<link=\"DIGGINGATTIRE\">Strój górnika</link>"
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.DIGGING.DESC
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.DIGGING.DESC"
@@ -78,8 +78,8 @@ msgstr "Lekkie i wytrzymałe włókna mineralne sprawiają, że ten strój nie p
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.DOCTOR.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.DOCTOR.NAME"
-msgid "Doctor's Outfit"
-msgstr "Strój lekarza"
+msgid "<link=\"DOCTORATTIRE\">Doctor's Outfit</link>"
+msgstr "<link=\"DOCTORATTIRE\">Strój lekarza</link>"
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.DOCTOR.DESC
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.DOCTOR.DESC"
@@ -93,8 +93,8 @@ msgstr "Opieka nad duplikantami w stroju {0} przyspiesza proces rekonwalescencji
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.FARMING.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.FARMING.NAME"
-msgid "Farmer's Outfit"
-msgstr "Strój rolnika"
+msgid "<link=\"FARMINGATTIRE\">Farmer's Outfit</link>"
+msgstr "<link=\"FARMINGATTIRE\">Strój rolnika</link>"
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.FARMING.DESC
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.FARMING.DESC"
@@ -108,8 +108,8 @@ msgstr "Pielęgnacja roślin w stroju {0} pomaga duplikantowi pracować wydajnie
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.HAULER.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.HAULER.NAME"
-msgid "Hauler's Outfit"
-msgstr "Strój tragarza"
+msgid "<link=\"HAULERATTIRE\">Hauler's Outfit</link>"
+msgstr "<link=\"HAULERATTIRE\">Strój tragarza</link>"
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.HAULER.DESC
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.HAULER.DESC"
@@ -123,8 +123,8 @@ msgstr "Znacznie łatwiej jest nosić ciężkie ładunki w stroju {0}."
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.PILOT.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.PILOT.NAME"
-msgid "Pilot's Outfit"
-msgstr "Strój pilota"
+msgid "<link=\"PILOTATTIRE\">Pilot's Outfit</link>"
+msgstr "<link=\"PILOTATTIRE\">Strój pilota</link>"
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.PILOT.DESC
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.PILOT.DESC"
@@ -138,8 +138,8 @@ msgstr "Znacznie łatwiej jest pilotować rakietę w stroju {0}."
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.RANCHING.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.RANCHING.NAME"
-msgid "Rancher's Outfit"
-msgstr "Strój hodowcy"
+msgid "<link=\"RACHINGATTIRE\">Rancher's Outfit</link>"
+msgstr "<link=\"RACHINGATTIRE\">Strój hodowcy</link>"
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.RANCHING.DESC
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.RANCHING.DESC"
@@ -153,8 +153,8 @@ msgstr "Opieka nad stworzeniami w stroju {0} pomaga duplikantowi pracować wydaj
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.SCIENTIST.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.SCIENTIST.NAME"
-msgid "Researcher's Outfit"
-msgstr "Strój naukowca"
+msgid "<link=\"SCIENTISTATTIRE\">Researcher's Outfit</link>"
+msgstr "<link=\"SCIENTISTATTIRE\">Strój naukowca</link>"
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.SCIENTIST.DESC
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.SCIENTIST.DESC"
@@ -168,8 +168,8 @@ msgstr "Znacznie łatwiej jest uczyć się nowych rzeczy w stroju {0}."
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.STRONG.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.STRONG.NAME"
-msgid "Strongman's Outfit"
-msgstr "Strój siłacza"
+msgid "<link=\"STRONGATTIRE\">Strongman's Outfit</link>"
+msgstr "<link=\"STRONGATTIRE\">Strój siłacza</link>"
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.STRONG.DESC
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.STRONG.DESC"
@@ -183,8 +183,8 @@ msgstr "Sprzątanie staje się dużo łatwiejsze w stroju {0}."
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.TINKER.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.TINKER.NAME"
-msgid "Engineer's Outfit"
-msgstr "Strój inżyniera"
+msgid "<link=\"TINKERATTIRE\">Engineer's Outfit</link>"
+msgstr "<link=\"TINKERATTIRE\">Strój inżyniera</link>"
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.TINKER.DESC
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.TINKER.DESC"
