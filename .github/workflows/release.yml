@@ -11,7 +11,7 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
           token: ${{ secrets.RELEASE_PAT }}
@@ -43,7 +43,7 @@ jobs:
         run: |
           awk '/^## /{if (found) exit; found=1} found' CHANGELOG.md > /tmp/release-notes.md
 
-      - uses: actions/setup-dotnet@v4
+      - uses: actions/setup-dotnet@v6
         if: steps.check.outputs.count != '0'
         with:
           dotnet-version: "8.0.x"
