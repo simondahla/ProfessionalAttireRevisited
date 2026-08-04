@@ -59,7 +59,6 @@ jobs:
           mkdir -p package
           cp bin/Release/net48/ProfessionalAttireRevisited.dll package/
           cp bin/Release/net48/ProfessionalAttireRevisited.pdb package/
-          cp bin/Release/net48/PLib.dll package/
           cp mod_info.yaml mod.yaml package/
           cd package && zip -r "../ProfessionalAttireRevisited-${{ steps.bump.outputs.version }}.zip" . && cd ..
 

@@ -60,6 +60,12 @@ Rough shape of what's next, no timeline attached:
 dotnet build
 ```
 
+After a game update, bump `minimumSupportedBuild` in `mod_info.yaml` to match the new build number, then commit:
+
+```bash
+dotnet run --project tools/BuildNumberSync
+```
+
 ## Running locally
 
 ```bash

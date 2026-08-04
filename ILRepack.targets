@@ -1,0 +1,19 @@
+<Project>
+  <!-- Merge PLib into the primary assembly. Having this file suppresses the package's built-in
+       auto-merge target (which would also pull in 0Harmony.dll, which the game provides at
+       runtime and must never be shipped). -->
+  <Target Name="MergePLib" AfterTargets="Build">
+    <ItemGroup>
+      <ILRepackInput Include="$(TargetPath)" />
+      <ILRepackInput Include="$(TargetDir)PLib*.dll" />
+    </ItemGroup>
+    <ILRepack
+      TargetKind="SameAsPrimaryAssembly"
+      Internalize="true"
+      Wildcards="true"
+      InputAssemblies="@(ILRepackInput)"
+      OutputFile="$(TargetPath)"
+      LibraryPath="$(MSBuildProjectDirectory)/lib"
+    />
+  </Target>
+</Project>
