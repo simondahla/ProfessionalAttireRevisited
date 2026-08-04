@@ -9,10 +9,10 @@ namespace ProfessionalAttireRevisited
     public class RanchingAttireConfig : IEquipmentConfig
     {
         public const string Id = "RachingAttire";
-        public const string DisplayName = "Ranchers's Outfit";
-        public const string GenericName = "Clothing";
-        public static string RecipeDescription = $"Caring for critters in a {DisplayName} helps a duplicant to work more effectively.";
-        public static string Description = "Improves the ranching capabilities of one duplicant.";
+        public static string DisplayName => ProfessionalAttireRevisitedStrings.RANCHING.NAME;
+        public static string GenericName => ProfessionalAttireRevisitedStrings.GENERIC_NAME_CLOTHING;
+        public static string RecipeDescription => string.Format(ProfessionalAttireRevisitedStrings.RANCHING.RECIPE_DESC, DisplayName);
+        public static string Description => ProfessionalAttireRevisitedStrings.RANCHING.DESC;
 
         public static int DecorModifier = ClothingWearer.ClothingInfo.BASIC_CLOTHING.decorMod;
         public static float ConductivityModifier = ClothingWearer.ClothingInfo.BASIC_CLOTHING.conductivityMod;

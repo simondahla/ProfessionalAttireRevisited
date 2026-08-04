@@ -9,10 +9,10 @@ namespace ProfessionalAttireRevisited
     public class StrongAttireConfig : IEquipmentConfig
     {
         public const string Id = "StrongAttire";
-        public const string DisplayName = "Strongman's Outfit";
-        public const string GenericName = "Clothing";
-        public static string RecipeDescription = $"Tyding becomes a lot easier in a {DisplayName}.";
-        public static string Description = "Improves the stength capabilities of one duplicant.";
+        public static string DisplayName => ProfessionalAttireRevisitedStrings.STRONG.NAME;
+        public static string GenericName => ProfessionalAttireRevisitedStrings.GENERIC_NAME_CLOTHING;
+        public static string RecipeDescription => string.Format(ProfessionalAttireRevisitedStrings.STRONG.RECIPE_DESC, DisplayName);
+        public static string Description => ProfessionalAttireRevisitedStrings.STRONG.DESC;
 
         public static int DecorModifier = ClothingWearer.ClothingInfo.BASIC_CLOTHING.decorMod;
         public static float ConductivityModifier = ClothingWearer.ClothingInfo.BASIC_CLOTHING.conductivityMod;

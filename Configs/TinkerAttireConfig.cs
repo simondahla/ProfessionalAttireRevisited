@@ -9,10 +9,10 @@ namespace ProfessionalAttireRevisited
     public class TinkerAttireConfig : IEquipmentConfig
     {
         public const string Id = "TinkerAttire";
-        public const string DisplayName = "Engineer's Outfit";
-        public const string GenericName = "Clothing";
-        public static string RecipeDescription = $"It's much easier to tinker with and operate things while wearing a {DisplayName}.";
-        public static string Description = "Improves the tinkering capabilities of one duplicant.";
+        public static string DisplayName => ProfessionalAttireRevisitedStrings.TINKER.NAME;
+        public static string GenericName => ProfessionalAttireRevisitedStrings.GENERIC_NAME_CLOTHING;
+        public static string RecipeDescription => string.Format(ProfessionalAttireRevisitedStrings.TINKER.RECIPE_DESC, DisplayName);
+        public static string Description => ProfessionalAttireRevisitedStrings.TINKER.DESC;
 
         public static int DecorModifier = ClothingWearer.ClothingInfo.BASIC_CLOTHING.decorMod;
         public static float ConductivityModifier = ClothingWearer.ClothingInfo.BASIC_CLOTHING.conductivityMod;

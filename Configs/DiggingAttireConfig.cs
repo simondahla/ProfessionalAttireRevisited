@@ -9,10 +9,10 @@ namespace ProfessionalAttireRevisited
     public class DiggingAttireConfig : IEquipmentConfig
     {
         public const string Id = "DiggingAttire";
-        public const string DisplayName = "Digger's Outfit";
-        public const string GenericName = "Clothing";
-        public const string RecipeDescription = "Lightweight and strong mineral fibers keep this clothing from getting in a duplicant's way while digging.";
-        public static string Description = "Improves the digging capabilities of one duplicant.";
+        public static string DisplayName => ProfessionalAttireRevisitedStrings.DIGGING.NAME;
+        public static string GenericName => ProfessionalAttireRevisitedStrings.GENERIC_NAME_CLOTHING;
+        public static string RecipeDescription => string.Format(ProfessionalAttireRevisitedStrings.DIGGING.RECIPE_DESC, DisplayName);
+        public static string Description => ProfessionalAttireRevisitedStrings.DIGGING.DESC;
 
         public static int DecorModifier = ClothingWearer.ClothingInfo.BASIC_CLOTHING.decorMod;
         public static float ConductivityModifier = ClothingWearer.ClothingInfo.BASIC_CLOTHING.conductivityMod;
