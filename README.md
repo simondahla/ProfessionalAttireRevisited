@@ -47,8 +47,6 @@ below.
 
 Rough shape of what's next, no timeline attached:
 
-- [X] Translation support
-- [X] Work out some logic to be able to disable mod without game crashing
 - [ ] An "advanced" tier of outfits with stronger bonuses and pricier ingredients.
 - [ ] Real *kanim* art and animations for each outfit, replacing the Snazzy Suits placeholder.
 - [ ] General visual polish on the clothing sprites once real art exists.
@@ -71,6 +69,3 @@ dotnet run --project tools/BuildNumberSync
 ```bash
 ./dev.sh
 ```
-<!-- CI/CD pipeline verified end-to-end -->
-<!-- verify compiled build attaches to release -->
-<!-- test -->
