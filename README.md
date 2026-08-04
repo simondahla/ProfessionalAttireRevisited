@@ -10,7 +10,7 @@ Built on Davis Cook's original 2019 [`Professional Attire`](https://github.com/d
 updated for the current game API. See `LICENSE` for the copyright notice and license scope.
 
 Uses [PLib](https://github.com/peterhaneve/ONIMods) (Peter Han, MIT licensed) for the in-game
-options menu.
+options menu and translations.
 
 ## Outfits
 
