@@ -1,0 +1,197 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Application: Oxygen Not IncludedPOT Version: 2.0\n"
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.GENERIC_NAME_CLOTHING
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.GENERIC_NAME_CLOTHING"
+msgid "Clothing"
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.ARTIST.NAME
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.ARTIST.NAME"
+msgid "Artist's Outfit"
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.ARTIST.DESC
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.ARTIST.DESC"
+msgid "Improves the creative capabilities of one duplicant."
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.ARTIST.RECIPE_DESC
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.ARTIST.RECIPE_DESC"
+msgid "This smock prevents duplicants from worrying about spilling paint when making art."
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.BUILDING.NAME
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.BUILDING.NAME"
+msgid "Builder's Outfit"
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.BUILDING.DESC
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.BUILDING.DESC"
+msgid "Improves the construction capabilities of one duplicant."
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.BUILDING.RECIPE_DESC
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.BUILDING.RECIPE_DESC"
+msgid "This stylish and hardy vest helps duplicants to work effectively and safely while performing construction tasks."
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.COOK.NAME
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.COOK.NAME"
+msgid "Cook's Outfit"
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.COOK.DESC
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.COOK.DESC"
+msgid "Improves the cooking capabilities of one duplicant."
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.COOK.RECIPE_DESC
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.COOK.RECIPE_DESC"
+msgid "Wearing a {0} makes cooking a breeze."
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.DIGGING.NAME
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.DIGGING.NAME"
+msgid "Digger's Outfit"
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.DIGGING.DESC
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.DIGGING.DESC"
+msgid "Improves the digging capabilities of one duplicant."
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.DIGGING.RECIPE_DESC
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.DIGGING.RECIPE_DESC"
+msgid "Lightweight and strong mineral fibers keep this clothing from getting in a duplicant's way while digging."
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.DOCTOR.NAME
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.DOCTOR.NAME"
+msgid "Doctor's Outfit"
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.DOCTOR.DESC
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.DOCTOR.DESC"
+msgid "Improves the caring capabilities of one duplicant."
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.DOCTOR.RECIPE_DESC
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.DOCTOR.RECIPE_DESC"
+msgid "Tending to duplicants in a {0} helps to speed up the recovery process."
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.FARMING.NAME
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.FARMING.NAME"
+msgid "Farmer's Outfit"
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.FARMING.DESC
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.FARMING.DESC"
+msgid "Improves the farming capabilities of one duplicant."
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.FARMING.RECIPE_DESC
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.FARMING.RECIPE_DESC"
+msgid "Tending to plants in a {0} helps a duplicant to work more effectively."
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.HAULER.NAME
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.HAULER.NAME"
+msgid "Hauler's Outfit"
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.HAULER.DESC
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.HAULER.DESC"
+msgid "Improves the carrying capacity of one duplicant."
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.HAULER.RECIPE_DESC
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.HAULER.RECIPE_DESC"
+msgid "It's much easier to carry heavy loads while wearing a {0}."
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.PILOT.NAME
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.PILOT.NAME"
+msgid "Pilot's Outfit"
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.PILOT.DESC
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.PILOT.DESC"
+msgid "Improves the piloting capabilities of one duplicant."
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.PILOT.RECIPE_DESC
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.PILOT.RECIPE_DESC"
+msgid "It's much easier to navigate a rocket while wearing a {0}."
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.RANCHING.NAME
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.RANCHING.NAME"
+msgid "Rancher's Outfit"
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.RANCHING.DESC
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.RANCHING.DESC"
+msgid "Improves the ranching capabilities of one duplicant."
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.RANCHING.RECIPE_DESC
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.RANCHING.RECIPE_DESC"
+msgid "Caring for critters in a {0} helps a duplicant to work more effectively."
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.SCIENTIST.NAME
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.SCIENTIST.NAME"
+msgid "Researcher's Outfit"
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.SCIENTIST.DESC
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.SCIENTIST.DESC"
+msgid "Improves the learning capabilities of one duplicant."
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.SCIENTIST.RECIPE_DESC
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.SCIENTIST.RECIPE_DESC"
+msgid "It's much easier to learn new things while wearing a {0}."
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.STRONG.NAME
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.STRONG.NAME"
+msgid "Strongman's Outfit"
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.STRONG.DESC
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.STRONG.DESC"
+msgid "Improves the strength capabilities of one duplicant."
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.STRONG.RECIPE_DESC
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.STRONG.RECIPE_DESC"
+msgid "Tidying becomes a lot easier in a {0}."
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.TINKER.NAME
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.TINKER.NAME"
+msgid "Engineer's Outfit"
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.TINKER.DESC
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.TINKER.DESC"
+msgid "Improves the tinkering capabilities of one duplicant."
+msgstr ""
+
+#. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.TINKER.RECIPE_DESC
+msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.TINKER.RECIPE_DESC"
+msgid "It's much easier to tinker with and operate things while wearing a {0}."
+msgstr ""

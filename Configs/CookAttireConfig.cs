@@ -9,10 +9,10 @@ namespace ProfessionalAttireRevisited
     public class CookAttireConfig : IEquipmentConfig
     {
         public const string Id = "CookAttire";
-        public const string DisplayName = "Cook's Outfit";
-        public const string GenericName = "Clothing";
-        public static string RecipeDescription = $"Wearing a {DisplayName} makes cooking a breeze.";
-        public static string Description = "Improves the cooking capabilities of one duplicant.";
+        public static string DisplayName => ProfessionalAttireRevisitedStrings.COOK.NAME;
+        public static string GenericName => ProfessionalAttireRevisitedStrings.GENERIC_NAME_CLOTHING;
+        public static string RecipeDescription => string.Format(ProfessionalAttireRevisitedStrings.COOK.RECIPE_DESC, DisplayName);
+        public static string Description => ProfessionalAttireRevisitedStrings.COOK.DESC;
 
         public static int DecorModifier = ClothingWearer.ClothingInfo.BASIC_CLOTHING.decorMod;
         public static float ConductivityModifier = ClothingWearer.ClothingInfo.BASIC_CLOTHING.conductivityMod;

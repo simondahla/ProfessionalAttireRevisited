@@ -9,10 +9,10 @@ namespace ProfessionalAttireRevisited
     public class PilotAttireConfig : IEquipmentConfig
     {
         public const string Id = "PilotAttire";
-        public const string DisplayName = "Pilot's Outfit";
-        public const string GenericName = "Clothing";
-        public static string RecipeDescription = $"It's much easier to navigate a rocket while wearing a {DisplayName}.";
-        public static string Description = "Improves the piloting capabilities of one duplicant.";
+        public static string DisplayName => ProfessionalAttireRevisitedStrings.PILOT.NAME;
+        public static string GenericName => ProfessionalAttireRevisitedStrings.GENERIC_NAME_CLOTHING;
+        public static string RecipeDescription => string.Format(ProfessionalAttireRevisitedStrings.PILOT.RECIPE_DESC, DisplayName);
+        public static string Description => ProfessionalAttireRevisitedStrings.PILOT.DESC;
 
         public static int DecorModifier = ClothingWearer.ClothingInfo.BASIC_CLOTHING.decorMod;
         public static float ConductivityModifier = ClothingWearer.ClothingInfo.BASIC_CLOTHING.conductivityMod;

@@ -34,21 +34,18 @@ cp "$BUILD_OUT/ProfessionalAttireRevisited.pdb" "$DEPLOY_DIR/"
 cp "$BUILD_OUT/PLib.dll" "$DEPLOY_DIR/"
 cp "$SCRIPT_DIR/mod_info.yaml" "$DEPLOY_DIR/"
 cp "$SCRIPT_DIR/mod.yaml" "$DEPLOY_DIR/"
-cp "$SCRIPT_DIR/preview.png" "$DEPLOY_DIR/"
+cp "$SCRIPT_DIR/mod.info" "$DEPLOY_DIR/"
+cp "$SCRIPT_DIR/workshop/screenshots/preview.png" "$DEPLOY_DIR/"
+cp "$SCRIPT_DIR/LICENSE" "$DEPLOY_DIR/"
+cp -r "$SCRIPT_DIR/translations" "$DEPLOY_DIR/"
 
-echo "==> Writing version.info and mod.info (for Mod Manager, https://steamcommunity.com/sharedfiles/filedetails/?id=1843965353)"
+echo "==> Writing version.info (for Mod Manager, https://steamcommunity.com/sharedfiles/filedetails/?id=1843965353)"
 VERSION="$(grep '^version:' "$SCRIPT_DIR/mod_info.yaml" | awk '{print $2}')"
 cat > "$DEPLOY_DIR/version.info" <<EOF
 <?xml version="1.0" encoding="utf-8"?>
 <VersionInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Version>$VERSION.0</Version>
 </VersionInfo>
-EOF
-cat > "$DEPLOY_DIR/mod.info" <<EOF
-<?xml version="1.0" encoding="utf-8"?>
-<ModInfoData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Github>https://github.com/simondahla/ProfessionalAttireRevisited</Github>
-</ModInfoData>
 EOF
 
 echo "==> Ensuring mod is enabled in mods.json"

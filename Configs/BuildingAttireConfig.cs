@@ -9,10 +9,10 @@ namespace ProfessionalAttireRevisited
     public class BuildingAttireConfig : IEquipmentConfig
     {
         public const string Id = "BuildingAttire";
-        public const string DisplayName = "Builder's Outfit";
-        public const string GenericName = "Clothing";
-        public const string RecipeDescription = "This stylish and hardy vest helps duplicants to work effectively and safely while performing construction tasks.";
-        public static string Description = "Improves the construction capabilities of one duplicant.";
+        public static string DisplayName => ProfessionalAttireRevisitedStrings.BUILDING.NAME;
+        public static string GenericName => ProfessionalAttireRevisitedStrings.GENERIC_NAME_CLOTHING;
+        public static string RecipeDescription => string.Format(ProfessionalAttireRevisitedStrings.BUILDING.RECIPE_DESC, DisplayName);
+        public static string Description => ProfessionalAttireRevisitedStrings.BUILDING.DESC;
 
         public static int DecorModifier = ClothingWearer.ClothingInfo.BASIC_CLOTHING.decorMod;
         public static float ConductivityModifier = ClothingWearer.ClothingInfo.BASIC_CLOTHING.conductivityMod;

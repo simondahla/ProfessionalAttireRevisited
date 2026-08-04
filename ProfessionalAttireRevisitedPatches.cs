@@ -12,12 +12,14 @@ namespace ProfessionalAttireRevisited
         private static void RegisterTypeStrings(Type type)
         {
             string Id = (string)type.GetField("Id").GetValue(null);
-            string DisplayName = (string)type.GetField("DisplayName").GetValue(null);
-            string GenericName = (string)type.GetField("GenericName").GetValue(null);
-            string Description = (string)type.GetField("Description").GetValue(null);
+            string DisplayName = (string)type.GetProperty("DisplayName").GetValue(null);
+            string GenericName = (string)type.GetProperty("GenericName").GetValue(null);
+            string Description = (string)type.GetProperty("Description").GetValue(null);
+            string RecipeDescription = (string)type.GetProperty("RecipeDescription").GetValue(null);
             Strings.Add($"STRINGS.EQUIPMENT.PREFABS.{Id.ToUpperInvariant()}.NAME", DisplayName);
             Strings.Add($"STRINGS.EQUIPMENT.PREFABS.{Id.ToUpperInvariant()}.GENERICNAME", GenericName);
             Strings.Add($"STRINGS.EQUIPMENT.PREFABS.{Id.ToUpperInvariant()}.DESC", Description);
+            Strings.Add($"STRINGS.EQUIPMENT.PREFABS.{Id.ToUpperInvariant()}.RECIPE_DESC", RecipeDescription);
         }
 
         [HarmonyPatch(typeof(GeneratedEquipment))]
