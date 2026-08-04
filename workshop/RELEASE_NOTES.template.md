@@ -1,16 +1,123 @@
-# Professional Attire Revisited - v{{VERSION}}
+[h1]Professional Attire Revisited - v{{VERSION}}[/h1]
 
-## What's new
+Adds 12 profession-themed clothing items to the Clothing Fabricator. Each one grants +2 to a duplicant attribute while worn, so you can dress your dupes for the job they're actually doing.
+
+[h3]Outfits[/h3]
+
+Every recipe uses [i]fiber[/i] as its base, plus a second ingredient where one is listed. Costs shown below are the mod's defaults - every number is editable per outfit in the options menu.
+
+[table]
+[tr]
+[th]Outfit[/th]
+[th]Attribute[/th]
+[th]Fiber cost[/th]
+[th]2nd ingredient[/th]
+[th]2nd ingredient cost[/th]
+[/tr]
+[tr]
+[td]Artist's[/td]
+[td]Art[/td]
+[td]3[/td]
+[td]Diamond[/td]
+[td]400 kg[/td]
+[/tr]
+[tr]
+[td]Builder's[/td]
+[td]Construction[/td]
+[td]3[/td]
+[td]Iron[/td]
+[td]400 kg[/td]
+[/tr]
+[tr]
+[td]Cook's[/td]
+[td]Cooking[/td]
+[td]3[/td]
+[td]Polypropylene[/td]
+[td]400 kg[/td]
+[/tr]
+[tr]
+[td]Digger's[/td]
+[td]Digging[/td]
+[td]3[/td]
+[td]Obsidian[/td]
+[td]2,000 kg[/td]
+[/tr]
+[tr]
+[td]Doctor's[/td]
+[td]Caring[/td]
+[td]3[/td]
+[td]Intermediate Cure[/td]
+[td]2[/td]
+[/tr]
+[tr]
+[td]Farmer's[/td]
+[td]Botanist[/td]
+[td]6[/td]
+[td]-[/td]
+[td]-[/td]
+[/tr]
+[tr]
+[td]Rancher's[/td]
+[td]Ranching[/td]
+[td]6[/td]
+[td]-[/td]
+[td]-[/td]
+[/tr]
+[tr]
+[td]Researcher's[/td]
+[td]Learning[/td]
+[td]3[/td]
+[td]Data Bank[/td]
+[td]20[/td]
+[/tr]
+[tr]
+[td]Strongman's[/td]
+[td]Strength[/td]
+[td]6[/td]
+[td]-[/td]
+[td]-[/td]
+[/tr]
+[tr]
+[td]Engineer's[/td]
+[td]Machinery[/td]
+[td]3[/td]
+[td]Refined Carbon[/td]
+[td]2,000 kg[/td]
+[/tr]
+[tr]
+[td]Pilot's[/td]
+[td]SpaceNavigation[/td]
+[td]3[/td]
+[td]Steel[/td]
+[td]400 kg[/td]
+[/tr]
+[tr]
+[td]Hauler's[/td]
+[td]CarryAmount[/td]
+[td]6[/td]
+[td]-[/td]
+[td]-[/td]
+[/tr]
+[/table]
+
+Outfits currently reuse the vanilla Snazzy Suits sprite as a placeholder. The original mod's unique art isn't included here since it wasn't licensed for reuse. Real art is on the roadmap.
+
+[h2]What's new[/h2]
 
 {{LATEST_SECTION}}
 
-## Found a bug?
+[h2]Found a bug? / Support[/h2]
 
-Steam users: try force-updating the mod with Mod Updater first -
-https://steamcommunity.com/sharedfiles/filedetails/?id=2018291283 or
-https://steamcommunity.com/sharedfiles/filedetails/?id=1843965353 - in case it's
-already fixed.
+Before reporting, try force-updating with one of these tools - it may already be fixed:
+[list]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2018291283]Mod Updater[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1843965353]Mod Manager[/url]
+[/list]
 
-Still broken? Report it here: https://github.com/simondahla/ProfessionalAttireRevisited/issues
+Still broken? Open an issue using our [url=https://github.com/simondahla/ProfessionalAttireRevisited/issues/new?template=issue.yml]bug report template[/url]. Full source, changelog, and a local download all live in the same repo: [url=https://github.com/simondahla/ProfessionalAttireRevisited]github.com/simondahla/ProfessionalAttireRevisited[/url]
 
-Please use our bug report template: https://github.com/simondahla/ProfessionalAttireRevisited/issues/new?template=issue.yml
+[hr][/hr]
+
+[h2]Acknowledgments[/h2]
+
+Based on the original mod [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1810563583]Professional Attiere[/url] by [url=https://steamcommunity.com/id/349278-18/]test447[/url].
