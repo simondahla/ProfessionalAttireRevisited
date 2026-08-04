@@ -3,7 +3,7 @@
 Adds 12 profession clothing items to Oxygen Not Included, craftable at the Clothing Fabricator.
 Each one grants +2 to a duplicant attribute while worn - an Artist's outfit for Art, a Doctor's
 outfit for Caring, and so on. Fiber and ingredient costs for every outfit are configurable
-individually through PLib's in-game options menu, so you can tune or disable recipes without
+individually through in-game options menu, so you can tune or disable recipes without
 editing files.
 
 Built on Davis Cook's original 2019 [`Professional Attire`](https://github.com/daviscook477/ONI-Mods/tree/master/src/ProfessionalAttire) mod (MIT licensed code) - ported and
@@ -47,8 +47,6 @@ below.
 
 Rough shape of what's next, no timeline attached:
 
-- [ ] Translation support
-- [ ] Work out some logic to be able to disable mod without game crashing… look at save safe funnction by Aki? https://github.com/aki-art/ONI-Mods
 - [ ] An "advanced" tier of outfits with stronger bonuses and pricier ingredients.
 - [ ] Real *kanim* art and animations for each outfit, replacing the Snazzy Suits placeholder.
 - [ ] General visual polish on the clothing sprites once real art exists.
