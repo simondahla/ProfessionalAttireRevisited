@@ -71,6 +71,3 @@ dotnet run --project tools/BuildNumberSync
 ```bash
 ./dev.sh
 ```
-<!-- CI/CD pipeline verified end-to-end -->
-<!-- verify compiled build attaches to release -->
-<!-- test -->
