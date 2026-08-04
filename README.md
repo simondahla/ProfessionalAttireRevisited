@@ -22,7 +22,7 @@ in the options menu.
 |---|---|---|---|---|
 | Artist's | Art | 3 | Diamond | 400 kg |
 | Builder's | Construction | 3 | Iron | 400 kg |
-| Cook's | Cooking | 3 | Polypropylene | 400 kg |
+| Cook's | Cooking | 3 | Plastic | 400 kg |
 | Digger's | Digging | 3 | Obsidian | 2,000 kg |
 | Doctor's | Caring | 3 | Intermediate Cure | 2 |
 | Farmer's | Botanist | 6 | - | - |
