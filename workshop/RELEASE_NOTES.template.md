@@ -120,4 +120,7 @@ Still broken? Open an issue using our [url=https://github.com/simondahla/Profess
 
 [h2]Acknowledgments[/h2]
 
-Based on the original mod [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1810563583]Professional Attiere[/url] by [url=https://steamcommunity.com/id/349278-18/]test447[/url].
+Based on the original mod [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1810563583]Professional Attiere[/url] (MIT licensed) by [url=https://steamcommunity.com/id/349278-18/]test447[/url].
+
+Uses [url=https://github.com/peterhaneve/ONIMods/tree/main/PLib]PLib[/url] (MIT licensed) by [url=https://steamcommunity.com/profiles/76561198025154321]Peter Han[/url] for the in-game
+options menu and translations.
