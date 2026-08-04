@@ -1,6 +1,6 @@
 [h1]Professional Attire Revisited - v{{VERSION}}[/h1]
 
-Adds 12 profession-themed clothing items to the Clothing Fabricator. Each one grants +2 to a duplicant attribute while worn, so you can dress your dupes for the job they're actually doing.
+Adds 12 themed clothing items to the Clothing Fabricator. Each one grants +2 to a duplicant attribute while worn, so you can dress your dupes for the job they're actually doing.
 
 [h3]Outfits[/h3]
 
