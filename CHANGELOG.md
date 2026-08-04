@@ -1,4 +1,10 @@
 # Changelog
+## [0.6.0] - 2026-08-04
+
+### Features
+
+- Add PLib-based translation support for outfit strings
+
 ## [0.5.0] - 2026-08-04
 
 ### Docs
