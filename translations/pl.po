@@ -138,8 +138,8 @@ msgstr "Znacznie łatwiej jest pilotować rakietę w stroju {0}."
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.RANCHING.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.RANCHING.NAME"
-msgid "<link=\"RACHINGATTIRE\">Rancher's Outfit</link>"
-msgstr "<link=\"RACHINGATTIRE\">Strój hodowcy</link>"
+msgid "<link=\"RANCHINGATTIRE\">Rancher's Outfit</link>"
+msgstr "<link=\"RANCHINGATTIRE\">Strój hodowcy</link>"
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.RANCHING.DESC
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.RANCHING.DESC"

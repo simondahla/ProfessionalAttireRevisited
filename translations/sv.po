@@ -138,8 +138,8 @@ msgstr "Det är mycket lättare att navigera en raket iförd en {0}."
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.RANCHING.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.RANCHING.NAME"
-msgid "<link=\"RACHINGATTIRE\">Rancher's Outfit</link>"
-msgstr "<link=\"RACHINGATTIRE\">Djurskötarens dräkt</link>"
+msgid "<link=\"RANCHINGATTIRE\">Rancher's Outfit</link>"
+msgstr "<link=\"RANCHINGATTIRE\">Djurskötarens dräkt</link>"
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.RANCHING.DESC
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.RANCHING.DESC"
