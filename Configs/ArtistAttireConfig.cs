@@ -9,10 +9,10 @@ namespace ProfessionalAttireRevisited
     public class ArtistAttireConfig : IEquipmentConfig
     {
         public const string Id = "ArtistAttire";
-        public const string DisplayName = "Artists's Outfit";
-        public const string GenericName = "Clothing";
-        public const string RecipeDescription = "This smock prevents duplicants from worrying about spilling paint when making art.";
-        public static string Description = "Improves the creative capabilities of one duplicant.";
+        public static string DisplayName => ProfessionalAttireRevisitedStrings.ARTIST.NAME;
+        public static string GenericName => ProfessionalAttireRevisitedStrings.GENERIC_NAME_CLOTHING;
+        public static string RecipeDescription => string.Format(ProfessionalAttireRevisitedStrings.ARTIST.RECIPE_DESC, DisplayName);
+        public static string Description => ProfessionalAttireRevisitedStrings.ARTIST.DESC;
 
         public static int DecorModifier = ClothingWearer.ClothingInfo.BASIC_CLOTHING.decorMod;
         public static float ConductivityModifier = ClothingWearer.ClothingInfo.BASIC_CLOTHING.conductivityMod;

@@ -9,10 +9,10 @@ namespace ProfessionalAttireRevisited
     public class FarmingAttireConfig : IEquipmentConfig
     {
         public const string Id = "FarmingAttire";
-        public const string DisplayName = "Farmers's Outfit";
-        public const string GenericName = "Clothing";
-        public static string RecipeDescription = $"Tending to plants in a {DisplayName} helps a duplicant to work more effectively.";
-        public static string Description = "Improves the farming capabilities of one duplicant.";
+        public static string DisplayName => ProfessionalAttireRevisitedStrings.FARMING.NAME;
+        public static string GenericName => ProfessionalAttireRevisitedStrings.GENERIC_NAME_CLOTHING;
+        public static string RecipeDescription => string.Format(ProfessionalAttireRevisitedStrings.FARMING.RECIPE_DESC, DisplayName);
+        public static string Description => ProfessionalAttireRevisitedStrings.FARMING.DESC;
 
         public static int DecorModifier = ClothingWearer.ClothingInfo.BASIC_CLOTHING.decorMod;
         public static float ConductivityModifier = ClothingWearer.ClothingInfo.BASIC_CLOTHING.conductivityMod;

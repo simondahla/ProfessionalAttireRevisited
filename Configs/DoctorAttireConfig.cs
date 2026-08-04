@@ -9,10 +9,10 @@ namespace ProfessionalAttireRevisited
     public class DoctorAttireConfig : IEquipmentConfig
     {
         public const string Id = "DoctorAttire";
-        public const string DisplayName = "Doctor's Outfit";
-        public const string GenericName = "Clothing";
-        public static string RecipeDescription = $"Tending to duplicants in a {DisplayName} helps to speed up the recovery process.";
-        public static string Description = "Improves the caring capabilities of one duplicant.";
+        public static string DisplayName => ProfessionalAttireRevisitedStrings.DOCTOR.NAME;
+        public static string GenericName => ProfessionalAttireRevisitedStrings.GENERIC_NAME_CLOTHING;
+        public static string RecipeDescription => string.Format(ProfessionalAttireRevisitedStrings.DOCTOR.RECIPE_DESC, DisplayName);
+        public static string Description => ProfessionalAttireRevisitedStrings.DOCTOR.DESC;
 
         public static int DecorModifier = ClothingWearer.ClothingInfo.BASIC_CLOTHING.decorMod;
         public static float ConductivityModifier = ClothingWearer.ClothingInfo.BASIC_CLOTHING.conductivityMod;

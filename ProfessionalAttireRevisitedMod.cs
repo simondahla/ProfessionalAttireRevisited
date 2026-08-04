@@ -1,6 +1,8 @@
 using HarmonyLib;
 using KMod;
+using PeterHan.PLib.AVC;
 using PeterHan.PLib.Core;
+using PeterHan.PLib.Database;
 using PeterHan.PLib.Options;
 
 namespace ProfessionalAttireRevisited
@@ -11,7 +13,9 @@ namespace ProfessionalAttireRevisited
         {
             base.OnLoad(harmony);
             PUtil.InitLibrary(false);
+            new PLocalization().RegisterFromCallingClass();
             new POptions().RegisterOptions(this, typeof(ProfessionalAttireRevisitedSettings));
+            new PVersionCheck().Register(this, new SteamVersionChecker());
             harmony.PatchAll();
         }
     }
