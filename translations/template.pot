@@ -138,7 +138,7 @@ msgstr ""
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.RANCHING.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.RANCHING.NAME"
-msgid "<link=\"RACHINGATTIRE\">Rancher's Outfit</link>"
+msgid "<link=\"RANCHINGATTIRE\">Rancher's Outfit</link>"
 msgstr ""
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.RANCHING.DESC

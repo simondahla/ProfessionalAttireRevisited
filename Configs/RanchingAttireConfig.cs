@@ -8,7 +8,7 @@ namespace ProfessionalAttireRevisited
 {
     public class RanchingAttireConfig : IEquipmentConfig
     {
-        public const string Id = "RachingAttire";
+        public const string Id = "RanchingAttire";
         public static string DisplayName => ProfessionalAttireRevisitedStrings.RANCHING.NAME;
         public static string GenericName => ProfessionalAttireRevisitedStrings.GENERIC_NAME_CLOTHING;
         public static string RecipeDescription => string.Format(ProfessionalAttireRevisitedStrings.RANCHING.RECIPE_DESC, DisplayName);

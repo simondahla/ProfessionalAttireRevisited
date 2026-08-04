@@ -19,7 +19,7 @@ msgstr "Kläder"
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.ARTIST.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.ARTIST.NAME"
 msgid "<link=\"ARTISTATTIRE\">Artist's Outfit</link>"
-msgstr "<link=\"ARTISTATTIRE\">Konstnärens dräkt</link>"
+msgstr "<link=\"ARTISTATTIRE\">Konstnärens rock</link>"
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.ARTIST.DESC
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.ARTIST.DESC"
@@ -34,7 +34,7 @@ msgstr "Denna rock gör att duplikanter slipper oroa sig för att spilla färg n
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.BUILDING.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.BUILDING.NAME"
 msgid "<link=\"BUILDINGATTIRE\">Builder's Outfit</link>"
-msgstr "<link=\"BUILDINGATTIRE\">Byggarens dräkt</link>"
+msgstr "<link=\"BUILDINGATTIRE\">Byggarens overall</link>"
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.BUILDING.DESC
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.BUILDING.DESC"
@@ -49,7 +49,7 @@ msgstr "Denna snygga och slitstarka väst hjälper duplikanter att arbeta effekt
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.COOK.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.COOK.NAME"
 msgid "<link=\"COOKATTIRE\">Cook's Outfit</link>"
-msgstr "<link=\"COOKATTIRE\">Kockens dräkt</link>"
+msgstr "<link=\"COOKATTIRE\">Kockens rock</link>"
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.COOK.DESC
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.COOK.DESC"
@@ -64,7 +64,7 @@ msgstr "Att bära en {0} gör matlagning till en baggis."
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.DIGGING.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.DIGGING.NAME"
 msgid "<link=\"DIGGINGATTIRE\">Digger's Outfit</link>"
-msgstr "<link=\"DIGGINGATTIRE\">Grävarens dräkt</link>"
+msgstr "<link=\"DIGGINGATTIRE\">Grävarens overall</link>"
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.DIGGING.DESC
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.DIGGING.DESC"
@@ -79,7 +79,7 @@ msgstr "Lätta och starka mineralfibrer gör att dessa kläder inte är i vägen
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.DOCTOR.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.DOCTOR.NAME"
 msgid "<link=\"DOCTORATTIRE\">Doctor's Outfit</link>"
-msgstr "<link=\"DOCTORATTIRE\">Läkarens dräkt</link>"
+msgstr "<link=\"DOCTORATTIRE\">Läkarens rock</link>"
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.DOCTOR.DESC
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.DOCTOR.DESC"
@@ -94,7 +94,7 @@ msgstr "Att vårda duplikanter iförd en {0} hjälper till att påskynda tillfri
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.FARMING.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.FARMING.NAME"
 msgid "<link=\"FARMINGATTIRE\">Farmer's Outfit</link>"
-msgstr "<link=\"FARMINGATTIRE\">Bondens dräkt</link>"
+msgstr "<link=\"FARMINGATTIRE\">Bondens overall</link>"
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.FARMING.DESC
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.FARMING.DESC"
@@ -109,7 +109,7 @@ msgstr "Att sköta växter iförd en {0} hjälper en duplikant att arbeta mer ef
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.HAULER.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.HAULER.NAME"
 msgid "<link=\"HAULERATTIRE\">Hauler's Outfit</link>"
-msgstr "<link=\"HAULERATTIRE\">Bärarens dräkt</link>"
+msgstr "<link=\"HAULERATTIRE\">Bärarens overall</link>"
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.HAULER.DESC
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.HAULER.DESC"
@@ -124,7 +124,7 @@ msgstr "Det är mycket lättare att bära tunga laster iförd en {0}."
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.PILOT.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.PILOT.NAME"
 msgid "<link=\"PILOTATTIRE\">Pilot's Outfit</link>"
-msgstr "<link=\"PILOTATTIRE\">Pilotens dräkt</link>"
+msgstr "<link=\"PILOTATTIRE\">Pilotens overall</link>"
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.PILOT.DESC
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.PILOT.DESC"
@@ -138,8 +138,8 @@ msgstr "Det är mycket lättare att navigera en raket iförd en {0}."
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.RANCHING.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.RANCHING.NAME"
-msgid "<link=\"RACHINGATTIRE\">Rancher's Outfit</link>"
-msgstr "<link=\"RACHINGATTIRE\">Djurskötarens dräkt</link>"
+msgid "<link=\"RANCHINGATTIRE\">Rancher's Outfit</link>"
+msgstr "<link=\"RANCHINGATTIRE\">Djurskötarens overall</link>"
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.RANCHING.DESC
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.RANCHING.DESC"
@@ -149,7 +149,7 @@ msgstr "Förbättrar en duplikants djurskötselförmåga."
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.RANCHING.RECIPE_DESC
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.RANCHING.RECIPE_DESC"
 msgid "Caring for critters in a {0} helps a duplicant to work more effectively."
-msgstr "Att sköta om kräldjur iförd en {0} hjälper en duplikant att arbeta mer effektivt."
+msgstr "Att sköta om djur iförd en {0} hjälper en duplikant att arbeta mer effektivt."
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.SCIENTIST.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.SCIENTIST.NAME"
@@ -169,7 +169,7 @@ msgstr "Det är mycket lättare att lära sig nya saker iförd en {0}."
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.STRONG.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.STRONG.NAME"
 msgid "<link=\"STRONGATTIRE\">Strongman's Outfit</link>"
-msgstr "<link=\"STRONGATTIRE\">Starkemannens dräkt</link>"
+msgstr "<link=\"STRONGATTIRE\">Kraftkarlens overall</link>"
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.STRONG.DESC
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.STRONG.DESC"
@@ -184,7 +184,7 @@ msgstr "Städning blir mycket lättare iförd en {0}."
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.TINKER.NAME
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.TINKER.NAME"
 msgid "<link=\"TINKERATTIRE\">Engineer's Outfit</link>"
-msgstr "<link=\"TINKERATTIRE\">Ingenjörens dräkt</link>"
+msgstr "<link=\"TINKERATTIRE\">Ingenjörens overall</link>"
 
 #. ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.TINKER.DESC
 msgctxt "ProfessionalAttireRevisited.ProfessionalAttireRevisitedStrings.TINKER.DESC"
