@@ -66,8 +66,8 @@ jobs:
       - name: Commit and tag
         if: steps.check.outputs.count != '0'
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "Simon Dahla"
+          git config user.email "simon@ingenmansland.se"
           git add CHANGELOG.md mod_info.yaml ProfessionalAttireRevisited.csproj
           git commit -m "chore(release): ${{ steps.bump.outputs.version }}"
           git tag "${{ steps.bump.outputs.version }}"
